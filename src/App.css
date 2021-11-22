@@ -1,0 +1,36 @@
+*{
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+body::before {
+  display: block;
+  content: "";
+  height: 95px;
+}
+:root {
+  --blue-color: #238CD0;
+  --orange-color: #FF6D0A;
+}
+.App{
+  background-color: #F1F0EC;
+}
+html{
+  background-color: #F1F0EC;
+}
+
+.blue{
+  color: #238CD0;
+}
+.oranges{
+  color: #FF6D0A;
+}
+.orange{
+  color: #FF6D0A;
+}
+
+
+
+
+
+

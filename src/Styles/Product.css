@@ -1,0 +1,11 @@
+.procard{
+    background-color: rgb(255, 255, 255);
+    margin: 7% 10%;
+    box-shadow: 0px 0px 80px 0px rgb(0 0 0 / 15%);
+  
+  }
+  @media screen and (max-width:768px) {
+    .procard{
+      margin: 0% 5%;
+    }
+  }

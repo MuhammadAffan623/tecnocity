@@ -1,0 +1,20 @@
+.wlink{
+    position:fixed;
+    bottom: 7%;
+    right: 4%;
+    z-index: 99;
+    background-color: #22cc61;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:750px) {
+    .wlink{
+        right: 7%;
+    }
+    
+}

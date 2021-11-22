@@ -1,0 +1,75 @@
+.msec1{
+  background-color:whitesmoke;
+  height: 300px;
+}
+.mimg1{
+  object-fit:cover;
+  width: 100%;
+  height: 300px;
+}
+.card1{
+  height: 100%;
+}
+.sec2{
+  background-color: #f1f0ec;
+}
+.pkgimg{
+  border-radius: 30px;
+  height: auto;
+  object-fit: cover;
+  width:100%;
+}
+@media screen and (max-width:750px) {
+  .pkgimg{
+    object-fit: cover;
+    height: auto;
+    width:auto;
+  } 
+}
+.mquery{
+  background-color: whitesmoke;
+  height: auto;
+}
+.mbuild{
+  position:static;
+  object-fit: cover;
+}
+.mcard{
+  position: relative;
+  right: 100px;
+  padding :40px 20px;
+  margin-right: 70px;
+}
+@media screen and (max-width:1000px) {
+  .mbuild{
+    position:static;
+  }
+  .mcard{
+    position: relative;
+    right: 100px;
+    top:55px;
+    padding :40px 0px;
+    margin-right: 40px;
+  }
+}
+  @media screen and (max-width:770px) {
+    .mquery{
+      height: auto;
+    }
+    .mbuild{
+      display: none;
+    }
+    .mcard{
+      top: 0px;
+      height: auto;
+      padding: 10px 0px;
+      justify-content: center;
+      width: auto;
+      left: 18px;
+      bottom: 10px;
+      /* margin-left: auto; */
+    }
+    .mcol{
+      display: none;
+    }
+}

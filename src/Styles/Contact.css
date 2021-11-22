@@ -1,0 +1,20 @@
+.contact{
+  background-color: #f1f0ec;
+}
+.cimg{
+  background-repeat: no-repeat ;
+  height: 40vh;
+}
+.con{
+  letter-spacing: 0.4rem;
+}
+@media screen and (max-width:770px) {
+  .cimg{
+    height:auto;
+    object-fit: contain;
+  }
+}
+.container-fluid .row .col1 .card{
+  border-radius: 50px;
+  height: auto;
+}
